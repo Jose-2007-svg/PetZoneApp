@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="78bbb6c209f848858ccbe03addb6b6fe" Name="Diagram1">
+        <EntityTypeShape EntityType="PetZoneModel.Categorias" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PetZoneModel.Clientes" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PetZoneModel.Empresa" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PetZoneModel.OrdenDetalle" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PetZoneModel.Ordenes" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PetZoneModel.Productos" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <AssociationConnector Association="PetZoneModel.FK__Productos__Categ__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="PetZoneModel.FK__Ordenes__Cliente__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="PetZoneModel.FK__OrdenDeta__Orden__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="PetZoneModel.FK__OrdenDeta__Produ__6477ECF3" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="PetZoneModel.Usuarios" Width="1.5" PointX="5.375" PointY="5" />
+        <AssociationConnector Association="PetZoneModel.FK__Ordenes__Usuario__5DCAEF64" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
